@@ -7,7 +7,7 @@ EXAMPLE
 -------
 
 ```hcl
-module "dcos-masters-lb" {
+module "lb" {
   source  = "terraform-dcos/lb/aws"
   version = "~> 0.1"
 
