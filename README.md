@@ -1,3 +1,7 @@
+Create an S3 Bucket for the .tf state file
+
+terraform remote config -backend=s3 -backend-config="bucket=validity-terraform-state-dev" -backend-config="key=autotag/terraform_dev.tfstate" -backend-config="region=us-east-1" -backend-config="encrypt=1"
+
 
 AWS LB - Application and Network Load Balancer
 ============
